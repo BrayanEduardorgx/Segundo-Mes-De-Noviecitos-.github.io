@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <title>Esto apenas empieza 🔥</title>
+</head>
+<body>
+
+    <audio autoplay loop>
+    <source src="Musica/cha cha cha.mp3" type="audio/mp3">
+</audio>
+ 
+
+    <a href="../PROYECTO_3/index3.html" class="btn-or">
+  Regresemos un poco atras 💗
+</a>
+   
+    <a href="../PROYECTO_5/index5.html" class="btn-ir">
+  Lo mejor esta por venir 💕 💗
+</a>
+   
+
+
+    <div class="valentines-day-card">
+        <input id="open" type="checkbox">
+        <label class="open" for="open"></label>
+      <div class="card-front">
+        <div class="note">Click Aqui Para Abrir</div>
+      </div>
+        
+        <div class="card-inside">
+          <div class="text-one">Feliz
+          </div>
+          <div class="heart"></div>
+          <div class="smile"></div>
+          <div class="eyes"></div>
+      </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+
+      <script>
+          setInterval(() => {
+              confetti({
+                  particleCount: 100,
+                  spread: 60,
+                  origin: { x: 0.5, y: 0.5 }
+              });
+          }, 999); 
+      </script>
+
+
+</body>
+</html>
